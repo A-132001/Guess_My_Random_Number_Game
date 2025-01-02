@@ -1,12 +1,25 @@
-<div class="game-container">
-    <h1>Guess My Number 🎲</h1>
-    <p class="message">Start guessing...</p>
-    <div class="guess-input">
-        <input type="number" id="guess" placeholder="Enter your guess" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Random Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Guess My Number 🎲</h1>
+        <p class="message">Start guessing...</p>
+        <div class="guess-input">
+            <input type="number" id="guess" placeholder="Enter your guess" />
+        </div>
+        <button id="check">Check</button>
+        <button id="reset">Reset</button>
+    
+        <p class="score">Score: <span id="score">20</span></p>
+        <p class="highscore">Highscore: <span id="highscore">0</span></p>
     </div>
-    <button id="check">Check</button>
-    <button id="reset">Reset</button>
+    <script src="index.js"></script>
+</body>
+</html>
 
-    <p class="score">Score: <span id="score">20</span></p>
-    <p class="highscore">Highscore: <span id="highscore">0</span></p>
-</div>
